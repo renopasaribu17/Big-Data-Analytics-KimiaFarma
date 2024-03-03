@@ -1,6 +1,6 @@
 # Syntax-BigQuery-KimiaFarma
 
-CREATE TABLE dataset_kimiafarma.kf_analasis AS
+CREATE TABLE dataset_kimiafarma.kf_analisis AS
 SELECT ft.transaction_id, ft.date, ft.branch_id, kc.branch_name, kc.kota, kc.provinsi, kc.rating as rating_cabang, ft.customer_name, ft.product_id, p.product_name, ft.price as actual_price, ft.discount_percentage, 
 
 CASE
