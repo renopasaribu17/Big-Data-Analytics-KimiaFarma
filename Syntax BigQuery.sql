@@ -11,7 +11,7 @@ CASE
     WHEN ft.price > 500000 THEN 0.3
         END AS persentase_gross_laba,
 
-ft.price * ft.discount_percentage as nett_sales,
+ft.price - (ft.price * ft.discount_percentage) as nett_sales,
 
 CASE
     WHEN ft.price <= 50000 THEN 0.1 * ft.price
