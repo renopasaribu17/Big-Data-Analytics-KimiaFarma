@@ -29,5 +29,4 @@ LEFT JOIN dataset_kimiafarma.kf_kantor_cabang as kc
   ON ft.branch_id = kc.branch_id
 
 LEFT JOIN dataset_kimiafarma.kf_product as p
-  ON ft.product_id = p.product_id 
-  AND ft.price = p.price;
+  ON ft.product_id = p.product_id;
