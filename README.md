@@ -11,7 +11,7 @@ As part of the Big Data Analytics internship program at Kimia Farma, this projec
 - ⌨ Google BigQuery
 - 📊 Google Looker Studio
 
-## Process and Methods
+## Data Preprocessing
 
 ### Data Collection
 - The dataset consists of 4 CSV files containing transaction data, sales, customer ratings, and product inventory.
